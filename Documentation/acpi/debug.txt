@@ -146,3 +146,6 @@ Enable all ACPI_DB_INFO messages after boot:
 Show all valid component values:
 
     # cat /sys/module/acpi/parameters/debug_layer
+
+Some extra cc dir commands:
+    # echo 0x5 > /sys/module/acpi/parameters/debug_type
